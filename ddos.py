@@ -7,8 +7,6 @@ import socket
 import sys
 import datetime
 import thread 
-name = input("Please Enter Your name: ")
-print("Hello " + name + ", keristofer has no responsibility for misuse !")
 x = str(datetime.datetime.now())
 x = """
 	   
