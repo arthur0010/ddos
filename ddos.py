@@ -24,7 +24,7 @@ x = """
     |                                     |
     |  chanel rubuka = @aqa_keristofer    |
     |                                     |
-    |       my love atrisa                |
+    |       no love                       |
     |                                     |
     |     abar script ddos                |
     |                                     |
