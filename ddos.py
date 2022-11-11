@@ -26,7 +26,35 @@ print("")
 os.system("figlet k e r i s t o f e r")
 print("")
 print("")
+print("""
 
+         `/ymMMMMMMMMMMMMMMmy/`
+       /hMMMMMMMMMMMMMMMMMMMMMMh/
+     /mMMmNMMMMMNNNNNNNNMMMMMNNMMm/
+   `hNmo:dMMNNNmNNmNNmNNmNNNMMd:omNh`
+  .mh:+/hMNNNNmNNmNdhmmNNmNNNNMy/o:hm.
+ `d+://sNmMMMmMMMmdy+/mMMMmMMMmNs///+d`
+ ys.o/oMmNNNmNNMNNMmdMNNMNNmNNNmMo/o.ys
+`my.-/NmMMMMmMMNmNNyyNNmNMMmMMMMmN/:`ym`
+-h/+s/MmMMMNmNNNdym++mymNNNmNMMNmM:so/h-
+-N.o.sMmMMMNh/:-`-MosM-`-:/hNMMMmMs.+.N-
+`ho/-ohmMMMM/    -M/+M.    /MMMMmho-/oh
+ s+-s-odmNNN`     /-:/     .NNNmd+:s-+s
+ `mo/-:+ymMm                mMms+:-/om`
+  .h/+/y`hhs                yyh`y/+/h.                                                     `hd/::-+.                .+-::/dy`
+     /hs+/::.--          --.::/+sh:
+       :hds+/-`          `-/+sdh:
+         `/ymM+          oMmy/
+
+""")
+print("""
+
+{==============================}
+{phone number :+989189256026   }
+{==============================}
+""")
+print("")
+print("")
 ip = raw_input("IP Target : ")
 port = input("Port       : ")
 
